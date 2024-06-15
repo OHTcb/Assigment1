@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
             res.setText(String.format("%.2f", result));
 
         } catch (Exception e) {
-            Toast.makeText(MainActivity.this, "Error: " + e.getMessage(), Toast.LENGTH_SHORT).show(); // Use MainActivity.this for context
+            Toast.makeText(MainActivity.this, "Error: " + e.getMessage(), Toast.LENGTH_SHORT).show();
         }
     }
 
